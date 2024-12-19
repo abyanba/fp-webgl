@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background-color: tan;
+}
+
+canvas {
+    width: 100vw;
+    height: 100vh;
+    background-color: tan;
+    display: block;
+}
+
+#overlay {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-family: Monospace;
+    font-size: 20px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 24px;
+    border-radius: 5px;
+    z-index: 10;
+    transition: transform 0.3s ease;
+    transform-origin: top left;
+    a:link {
+        color: cyan;
+    }
+    a:visited {
+        color: cyan;
+    }
+    a:hover {
+        color: aquamarine;
+    }
+}
+
+#overlay:hover {
+    transition: transform 0.3s ease;
+    transform-origin: top left;
+    transform: scale(1.05);
+}

@@ -2,4 +2,8 @@
 <br>
 
 Abyan Bismar Alfayed
+
 5025221026
+
+Grafika Komputer (E)
+

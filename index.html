@@ -3,25 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>3D Object Viewer</title>
-    <style>
-        body {
-            margin: 0;
-        }
-
-        canvas {
-            width: 100%;
-            height: 100%;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <title>FP WebGL</title>
 </head>
 <body>
-    <!-- Canvas element -->
     <canvas id="canvas"></canvas>
-    <!-- Load utility scripts for WebGL -->
+
+    <div id="overlay">
+        Abyan Bismar Alfayed <br>
+        5025221026 <br>
+        Grafika Komputer (E) <br>
+        Repository: <a href="https://github.com/abyanba/fp-webgl">abyanba/fp-webgl</a>
+    </div>
+
     <script src="https://webglfundamentals.org/webgl/resources/webgl-utils.js"></script>
     <script src="https://webglfundamentals.org/webgl/resources/m4.js"></script>
-    <!-- Use module type for main.js -->
     <script type="module" src="main.js"></script>
 </body>
 </html>
